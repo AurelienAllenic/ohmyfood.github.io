@@ -8,22 +8,24 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css"/>
-        <title>Ohmyfood.com</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+        <title>Ohmyfood</title>
 </head>
 <body>
     <header>
-      <a href="./index.html">
-        <i class="fas fa-arrow-left position-arrow"></i>
-    </a>
-    <div class="logo"><img src="images/logo/ohmyfood.png"/>
-    </div>
+      <div class="logo">
+        <a href="./index.html">
+          <i class="fas fa-arrow-left position-arrow"></i>
+      </a>
+        <img class="logo-position" src="images/logo/ohmyfood.png" alt="logo de Ohmyfood"/>
+      </div>
     </header>
-        <img class="img-carte" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg">
+        <img class="img-carte" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la française">
 
     <section id="carte"> 
       
-        <h1 class="main-title-carte pt">A la française
-       <div class="icon-content">
+        <h2 class="main-title-carte pt">A la française</h2>
+       <div class="icon-content-carte">
           <div class="heart__icon">
               <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="heart"
                   class="svg-inline--fa fa-heart fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -35,14 +37,14 @@
               </svg>
           </div>
       </div>  
-    </h1>
+    
         <h2 class="pl main-title"><span class="underline">ENTR</span>EES</h2>
        
         <div class="apparition">
             <div class="app-1">
         <div class="bloc-plat">
             <div class="infos">
-              <h1 class="title main-title">Tartare de poulpe acidulé</h1>
+              <h3 class="title main-title">Tartare de poulpe acidulé</h3>
               <div class="subtitle minor-title">Aux zests d'orange</div>
             </div>
             <div class="price main-title">25€</div>
@@ -52,7 +54,7 @@
             <div class="app-2">
           <div class="bloc-plat">
             <div class="infos">
-              <h1 class="title main-title">Velouté de légumes d'antan</h1>
+              <h3 class="title main-title">Velouté de légumes d'antan</h3>
               <div class="subtitle minor-title">Carotte, panais, topinambour</div>
             </div>
             <div class="price main-title">35€</div>
@@ -62,7 +64,7 @@
         <div class="app-3">
           <div class="bloc-plat">
             <div class="infos">
-              <h1 class="title main-title">Soupe à l'oignon</h1>
+              <h3 class="title main-title">Soupe à l'oignon</h3>
               <div class="subtitle minor-title">Revisité</div>
             </div>
             <div class="price main-title">20€</div>
@@ -73,7 +75,7 @@
           <div class="app-4">
           <div class="bloc-plat">
             <div class="infos">
-              <h1 class="title main-title">Coquilles Saint-Jacques</h1>
+              <h3 class="title main-title">Coquilles Saint-Jacques</h3>
               <div class="subtitle minor-title">Accompagné d'une purée de panais</div>
             </div>
             <div class="price main-title">40€</div>
@@ -83,7 +85,7 @@
         <div class="app-5">
           <div class="bloc-plat">
             <div class="infos">
-              <h1 class="title main-title">Magret de canard</h1>
+              <h3 class="title main-title">Magret de canard</h3>
               <div class="subtitle minor-title">Et parmentier de pommes de terres</div>
             </div>
             <div class="price main-title">35€</div>
@@ -93,18 +95,18 @@
         <div class="app-6">
           <div class="bloc-plat">
             <div class="infos">
-              <h1 class="title main-title">Pigeonneau d'Ille-et-Vilaine</h1>
+              <h3 class="title main-title">Pigeonneau d'Ille-et-Vilaine</h3>
               <div class="subtitle minor-title">Sur son lit de gnocchis aux légumes</div>
             </div>
             <div class="price main-title">44€</div>
             <div class="checkbox"><i class="fas fa-check-circle"></i></div>
           </div>
         </div>
-          <h2 class="pl main-title"><span class="underline">DESSE</span>RTS</h2>
+          <h3 class="pl main-title"><span class="underline">DESSE</span>RTS</h3>
           <div class="app-7">
           <div class="bloc-plat">
             <div class="infos">
-              <h1 class="title main-title">Pétales de violettes glacés</h1>
+              <h3 class="title main-title">Pétales de violettes glacés</h3>
               <div class="subtitle minor-title">Et purée de noisettes</div>
             </div>
             <div class="price main-title">18€</div>
@@ -114,7 +116,7 @@
         <div class="app-9">
           <div class="bloc-plat">
             <div class="infos">
-              <h1 class="title main-title">Fondant au chocolat</h1>
+              <h3 class="title main-title">Fondant au chocolat</h3>
               <div class="subtitle minor-title">Revisité</div>
             </div>
             <div class="price main-title">22€</div>
@@ -124,15 +126,14 @@
         <div class="app-10">
           <div class="bloc-plat">
             <div class="infos">
-              <h1 class="title main-title">Millefeuille croustillant</h1>
-              <div class="subtitle minor-title">Myrtilles et pête d'amande</div>
+              <h3 class="title main-title">Millefeuille croustillant</h3>
+              <div class="subtitle minor-title">Myrtilles et pâte d'amande</div>
             </div>
             <div class="price main-title">23€</div>
             <div class="checkbox"><i class="fas fa-check-circle"></i></div>
           </div>
         </div>
           </div>
-        </div>
         <div class="btn-menu">
             Commander
          </div>
