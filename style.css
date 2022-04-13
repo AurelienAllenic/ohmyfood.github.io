@@ -550,29 +550,32 @@ h3 {
 .apparition .app-4 {
   animation: app 1600ms ease-in-out;
 }
-
-.apparition .app-5 {
+.apparition .app-4-1 {
   animation: app 1800ms ease-in-out;
 }
 
-.apparition .app-6 {
+.apparition .app-5 {
   animation: app 2000ms ease-in-out;
 }
 
-.apparition .app-7 {
+.apparition .app-6 {
   animation: app 2200ms ease-in-out;
 }
 
-.apparition .app-8 {
+.apparition .app-7 {
   animation: app 2400ms ease-in-out;
 }
 
-.apparition .app-9 {
+.apparition .app-8 {
   animation: app 2600ms ease-in-out;
 }
 
-.apparition .app-10 {
+.apparition .app-9 {
   animation: app 2800ms ease-in-out;
+}
+
+.apparition .app-10 {
+  animation: app 3000ms ease-in-out;
 }
 @keyframes app {
   0% {
@@ -683,7 +686,7 @@ h3 {
 }
 
 .main-title-carte {
-  padding-left: 20%;
+  padding-left: 10%;
   font-size: 30px;
   font-weight: 500;
   padding-top: 2%
@@ -691,27 +694,76 @@ h3 {
 
   /* TAILLE TABLETTE */
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
   
   /* ACCEUIL */
 
   .white-block:hover {
     transform: scale(1.1);
   }
+
+  .restaurant-choix {
+    display: inline-block;
+    margin-left: 8%;
+    width: 36%;
+  }
+
+  .center {
+    margin-left: 32%;
+  }
+
+  .numero {
+    margin-left: -9%;
+    padding-left: 3%;
+  }
+
+  .pt {
+    padding-top: 1%;
+  }
   
+  .container {
+    padding-bottom: 3%;
+  }
+
+  .reserve1 {
+    padding-bottom: 2%;
+  }
+
+  .btn {
+    padding: 2%;
+  }
+  
+  .titre-desktop {
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .mp-5 {
+    margin: 0%;
+    text-align: center;
+  }
+
+  .white-block {
+    margin: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: inline-block;
+    width: 43%;
+  }
   /* CARTE DES RESTAURANTS */
   .img-carte {
     max-height : 510px;
   }
 
+
   .icon-content-carte {
     padding-left: 5%;
     position: absolute;
-    bottom: 97.5%;
+    bottom: 95.5%;
     right: 25%;
   }
   .main-title {
-    font-size: 30px;
+    font-size: 19px;
   }
 
   .title {
@@ -721,6 +773,19 @@ h3 {
     justify-content: center;
   }
 
+    .app-1, .app-2, .app-4, .app-5, .app-7, .app-8{
+      width: 45%;
+      display: inline-block;
+      margin: 1%;
+    }
+
+    .app-3, .app-4-1, .app-6, .app-9 {
+      width: 80%;
+      margin-left: 5%;
+    }
+  .bloc-plat {
+    width: 100%;
+  }
   .subtitle {
     padding-bottom: 3%;
     display: flex;
@@ -728,7 +793,7 @@ h3 {
     justify-content: center;
   }
   .minor-title {
-    font-size: 22px;
+    font-size: 16px;
     opacity: 0.70;
   }
 
@@ -755,21 +820,39 @@ h3 {
     /* ANIMATION CARTE APPARITION DU TEXTE AU CHARGEMENT */
 
     .apparition  .app-1 {
-      animation: app 2000ms ease-in-out;
+      animation: app 1000ms ease-in-out;
     }
     
     .apparition .app-2 {
-      animation: app 2200ms ease-in-out;
+      animation: app 1200ms ease-in-out;
     }
     
     .apparition .app-3 {
-      animation: app 2400ms ease-in-out;
+      animation: app 1400ms ease-in-out;
     }
     
     .apparition .app-4 {
-      animation: app 2800ms ease-in-out;
+      animation: app 1800ms ease-in-out;
     }
-    
+    .apparition .app-4-1 {
+      animation: app 1800ms ease-in-out;
+    }
+
+    .apparition .app-5 {
+      animation: app 2200ms ease-in-out;
+    }
+    .apparition .app-6 {
+      animation: app 2200ms ease-in-out;
+    }
+    .apparition .app-7 {
+      animation: app 2400ms ease-in-out;
+    }
+    .apparition .app-8 {
+      animation: app 2600ms ease-in-out;
+    }
+    .apparition .app-9 {
+      animation: app 3000ms ease-in-out;
+    }
   }
 
   /* TAILLE DESKTOP */
@@ -793,6 +876,14 @@ h3 {
     .btn {
       padding: 2%;
       font-size: 25px;
+    }
+
+    .numero {
+      margin-left: -7.5%;
+      padding-left: 3%;
+      padding-right: 3%;
+      padding-bottom: 2%;
+      margin-top: 3%;
     }
 
     .titre-desktop {
@@ -821,16 +912,60 @@ h3 {
       padding-top: 1%;
     }
 
+    .restaurant-choix {
+    display: inline-block;
+    margin-left: 8%;
+    width: 36%;
+  }
+
+  .center {
+    margin-left: 32%;
+  }
+
+  .numero {
+    margin-left: -9%;
+    padding-left: 3%;
+  }
+
+  .pt {
+    padding-top: 1%;
+  }
+  
+  .container {
+    padding-bottom: 3%;
+  }
+
+  .reserve1 {
+    padding-bottom: 2%;
+  }
+
+  .btn {
+    padding: 2%;
+  }
+  
+  .titre-desktop {
+    text-align: center;
+    padding-bottom: 2%;
+  }
+
+  .mp-5 {
+    margin: 0%;
+    text-align: center;
+  }
+  
+  .ml-desk {
+    margin-left: 6%;
+  }
   /* Blocs Restaurants */
   
-    .white-block {
-      width: 70%;
-      margin-left: 15%;
-      margin-bottom: 5%;
-    }
+  .white-block {
+    margin-right: 3%;
+    display: inline-block;
+    width: 41%;
+  }
     .img-rest {
       min-height: 210px;
-      max-height: 400px;
+      max-height: 300px;
     }
 
   /* FOOTER ACCEUIL */
@@ -870,6 +1005,7 @@ h3 {
     flex-direction: column;
     font-size: 35px;
   }
+
   /* CARTES */
 
   .img-carte {
@@ -882,7 +1018,7 @@ h3 {
   .icon-content-carte {
     padding-left: 5%;
     position: absolute;
-    bottom: 97.5%;
+    bottom: 96.5%;
     right: 29%;
   }
   .main-title-carte {
@@ -894,6 +1030,20 @@ h3 {
   .main-title {
     font-size: 30px;
   }
+
+  .app-1, .app-2, .app-4, .app-5, .app-7, .app-8{
+    width: 45%;
+    display: inline-block;
+    margin: 1%;
+  }
+
+  .app-3, .app-4-1, .app-6, .app-9 {
+    width: 80%;
+    margin-left: 5%;
+  }
+.bloc-plat {
+  width: 100%;
+}
 
   .title {
     padding-bottom: 3%;
@@ -923,20 +1073,7 @@ h3 {
     align-items: center;
     padding-right: 5%;
   }
-  /*ANIMATION APPARITION TEXTE CARTE AU CHARGEMENT */
-
-  .apparition .app-1 {
-    animation: app 2000ms ease-in-out;
   }
-  
-  .apparition .app-2 {
-    animation: app 2200ms ease-in-out;
-  }
-  
-  .apparition .app-3 {
-    animation: app 2400ms ease-in-out;
-  }
-}
 
 /* TAILLE DESKTOP ELEVEE */
 
@@ -957,48 +1094,20 @@ h3 {
   }
 
   .numero {
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    margin-top: 0.5%;
-    margin-left: -4.5%;
-  }
-
-  .btn-menu {
-    margin-left: 30%;
+    padding-bottom: 2%;
+    margin-top: 2%;
   }
 
   /* CARTES DES RESTAURANTS */
 
   .img-rest {
     min-height: 310px;
-    max-height: 450px;
-  }
-
-  .btn {
-    padding: 2%;
-    font-size: 35px;
+    max-height: 350px;
   }
 
   .icon-content-carte {
-    padding-left: 5%;
-    position: absolute;
-    bottom: 97.75%;
     right: 40%;
   }
-
-    /* ANIMATION APPARITION TEXTE CARTE AU CHARGEMENT */
-
-    .apparition  .app-1 {
-      animation: app 2000ms ease-in-out;
-    }
-    
-    .apparition .app-2 {
-      animation: app 2200ms ease-in-out;
-    }
-    
-    .bloc-plat:hover > .checkbox {
-      width: 12rem;
-    }
 
     /* STYLES */
 
@@ -1013,12 +1122,4 @@ h3 {
       font-size: 45px;
     }
   
-}
-
-/* NE RIEN AFFICHER SI LA RESOLUTION DE L'ECRAN EST TROP BASSE */
-
-@media screen and (max-width: 409px) {
-  body {
-    display: none;
-  }
 }
