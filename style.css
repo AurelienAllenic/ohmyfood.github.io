@@ -16,6 +16,7 @@ a {
 
 .page {
   animation : page cubic-bezier(.34,.26,.73,.93) 6s;
+  margin: 1%;
 }
 
 .textanim {
@@ -26,8 +27,8 @@ a {
 
 .spinner .textanim {
   position : absolute;
+  left: 22%;
   top: 35%;
-  left: 25%;
 }
 
 /* CERCLE AUTOUR DU TEXTE -- ANIMATION*/
@@ -43,8 +44,8 @@ a {
 
 }
 .spinner {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   position: absolute;
   animation: loader 4s linear 1s forwards;
 }
@@ -52,8 +53,8 @@ a {
 .spinner div {
   box-sizing: border-box;
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border: 10px solid transparent;
   border-top-color: #ad60f5;
   border-radius: 50%;
@@ -183,6 +184,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.taille-logo {
+  width: 90%;
 }
 
   .localisation {
@@ -325,6 +330,7 @@ a {
     margin-right: 6%;
     margin-left: 5%;
     position: relative;
+    z-index: 500;
   }
 
   .white-block:hover {
@@ -696,6 +702,21 @@ h3 {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   
+  /* ANIMATION CHARGEMENT */
+
+  .textanim {
+    font-size: 70px;
+  }
+  .spinner {
+    width: 650px;
+    height: 650px;
+  }
+
+  .spinner div {
+    width: 650px;
+    height: 650px;
+  }
+
   /* ACCEUIL */
 
   .white-block:hover {
@@ -708,6 +729,9 @@ h3 {
     width: 36%;
   }
 
+  .taille-logo {
+  width: 90%;
+}
   .center {
     margin-left: 32%;
   }
@@ -859,12 +883,31 @@ h3 {
 
 @media screen and (min-width: 992px) {
  
+    /* ANIMATION CHARGEMENT */
+
+    .textanim {
+      font-size: 70px;
+    }
+    .spinner {
+      width: 650px;
+      height: 650px;
+    }
+  
+    .spinner div {
+      width: 650px;
+      height: 650px;
+    }
+
     /*PAGE ACCEUIL */
 
     .lieu {
       font-size: 25px;
     }
  
+    .taille-logo {
+      width: 40%;
+    }
+
     .reserve {
       font-size: 25px;
     }
@@ -1085,6 +1128,10 @@ h3 {
     font-size: 30px;
   }
 
+  .taille-logo {
+    width: 40%;
+  }
+
   .reserve {
     font-size: 30px;
   }
@@ -1106,7 +1153,7 @@ h3 {
   }
 
   .icon-content-carte {
-    right: 40%;
+    right: 30%;
   }
 
     /* STYLES */
