@@ -1,16 +1,26 @@
 /* GENERAL */
 
-h1, h2, h3, .mail{
-  font-family: 'Raleway', sans-serif;
+h1 {
+  font-family: 'Shrikhand', sans-serif;
 }
 
-body {
+h2, h3.mail {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
   margin: 0%;
 }
 
 a {
   text-decoration: none;
+}
+
+.width-heart {
+  width: 65%;
+  margin: 0%;
+  padding-left: 5%;
+  padding-top: 5%;
+  color: black;
 }
 /* ANIMATION DE LA PAGE D'ACCEUIL */
 
@@ -752,6 +762,9 @@ h3 {
   .reserve1 {
     padding-bottom: 2%;
   }
+  .width-heart {
+    width: 58%;
+  }
 
   .btn {
     padding: 2%;
@@ -900,6 +913,9 @@ h3 {
 
     /*PAGE ACCEUIL */
 
+    .width-heart {
+      width: 50%;
+    }
     .lieu {
       font-size: 25px;
     }
@@ -952,7 +968,7 @@ h3 {
     }
     .icon {
       font-size: 25px;
-      padding-top: 1%;
+      padding-top: 2%;
     }
 
     .restaurant-choix {
