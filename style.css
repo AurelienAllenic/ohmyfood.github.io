@@ -216,7 +216,7 @@ a {
   }
   .icon {
     float: left;
-    padding-top: 3%;
+    padding-top: 6%;
     padding-left: 13%;
     color: black;
   }
@@ -293,7 +293,7 @@ a {
     width: 80%;
   }
 
-  .restaurant-choix:hover {
+.restaurant-choix:hover {
     background-color: #e1c8ff;
   }
 
