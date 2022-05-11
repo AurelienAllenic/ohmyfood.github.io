@@ -221,7 +221,10 @@ a {
     color: black;
   }
 
-  .icon:hover{
+  .restaurant-choix:hover{
+    background-color: #e1c8ff;
+  }
+  .restaurant-choix:hover .icon{
     color: #9356DC;
   }
 
@@ -291,10 +294,6 @@ a {
     margin-left: 10%;
     box-shadow: 2px 2px 2px 2px #d9d9d9;
     width: 80%;
-  }
-
-.restaurant-choix:hover {
-    background-color: #e1c8ff;
   }
 
   .numero {
