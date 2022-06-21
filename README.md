@@ -9,4 +9,3 @@
 
 this project uses HTML, CSS and SCSS. 
 It is mostly a work about animations.
-
